@@ -28,15 +28,16 @@ h1 {
   width: 80%;
 }
 
-.banner-home.texto-menu h1{
+.banner-home .texto-menu h1{
   font-size: 40px;
   width: 80%;
 }
 
-.banner-home.texto-menu p{
+.banner-home .texto-menu p1{
   font-size: 18px;
   margin: 30px 0px;
   width: 100%;
+  color:#000;
 }
 
 .banner-home .texto-menu .btn{
