@@ -14,85 +14,86 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img
-            src="imgs/logo_Gamemania.svg"
-            alt="Game_Mania_Logo"
-            width="auto"
-            height="45px"
-            class="d-inline-block align-text-center"
-          />
-          Game Mania
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Black Friday</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Categorias
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Categorias</a></li>
-                <li><a class="dropdown-item" href="#">Categorias</a></li>
-                <li><a class="dropdown-item" href="#">Categorias</a></li>
-                <li><a class="dropdown-item" href="#">Categorias</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="imgs/logo_Gamemania.svg"
+              alt="Game_Mania_Logo"
+              width="auto"
+              height="45px"
+              class="d-inline-block align-text-center"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
+            Game Mania
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Black Friday</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorias
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Categorias</a></li>
+                  <li><a class="dropdown-item" href="#">Categorias</a></li>
+                  <li><a class="dropdown-item" href="#">Categorias</a></li>
+                  <li><a class="dropdown-item" href="#">Categorias</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
 
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!--*** fist carousel slides ***-->
   <!--  <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -115,7 +116,7 @@
           usto incidunt quidem quasi laudantium nostrum distinct
           io velit non nobis ut sunt tempore maiores tenetur.</p1>
       </section>
-      <a onclick="saibaMais()" class="btn">Saiba mais</a>
+      <a onclick="showLess()" class="btn btn-primary">mostrar menos</a>
       <p class="text-saiba-mais">Texto que aparece e desaparece</p>
     </div>
   </div>
@@ -157,9 +158,12 @@
       <p>Game Mania - 2021</p>
     </footer>
   <!-- *** LINK DO SCRIPT DO SITE ***-->
-  <script type="text/javascript" src="scripts.js"></script>
-  </body>
+  <script type="text/javascript" src="js/scripts.js"></script>
 
+  <!-- *** LINK DO Jquery ***-->
+  <script type="text/javascript" src="js/jquery-v3.7.1.min.js"></script>
+
+</body>
 
   <!-- *** LINK DO BOOTSTRAP ***-->
   <script

@@ -1,12 +1,14 @@
 function showLess(){
-    const texto = document.querySelector('.text-saiba-mais');
+    var texto = document.getElementByClassName("text-saiba-mais");
     if(texto.style.display === 'none'){
         texto.style.display = 'block';
     }else{
-        //change html of mostrar menos for mostrar mais
-        texto.innerHTML = 'mostrar mais';
         texto.style.display = 'none';
     }
 }
 
+/*document.getElementById('mostrarMais').addEventListener('onclick', function onclick() {
+    document.getElementByClassName('text-saiba-mais').style.display = 'none';
+    // You can also add animation effects or load more content dynamically here
+});*/
 console.log('Game Mania');
